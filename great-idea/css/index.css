@@ -28,8 +28,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.container{
+	background:white;
+	margin:0px 160px;
+	padding: 15px 70px 100px 70px;
+	border:blue 5px solid;
+}
+
 body {
 	line-height: 1;
+	background: #000;
+	border:red 5px solid;
+	margin:0 auto;
+	
 }
 ol, ul {
 	list-style: none;
@@ -63,4 +74,108 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.nav-bar a{
+	/* padding-right: 0px;
+	padding-left:0px;
+	margin:5px;
+	margin-right:40px; */
+	text-decoration:none;
+	color:grey;
+	display:inline-block;
+	/* border:red 5px solid; */
+	font-size:15px;
+	font-weight: bolder;
+	margin-left:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:50px;
+}
+
+.logo{
+	/* padding-bottom:0px;
+	padding-left:2px;
+	line-height: unset; */
+	vertical-align:middle;
+	/* margin-left:-10px;
+	margin-right:0px; */
+	/* border:black 5px solid; */
+	margin-left:-25px;
+	margin-right:-80px;
+	text-align:right;
+	padding-left:60px;
+}
+header{
+	max-width:200px;
+}
+.code-image{
+	max-width:200px;
+}
+
+h1{
+	max-width:50px;
+	text-align:center;
+	font-size:50px;
+}
+
+button{
+	background:white;
+	border:black solid 1px;
+	font-family: 'Courier New', Courier, monospace;	
+	font: size 15px;
+	padding: 5px 40px;
+}
+
+.main-content-box{
+	border-bottom: solid black 2px;
+	border-top:solid black 2px;
+	background:gray;
+	padding-top:50px;
+	padding-bottom:50px;
+	display:inline-block;
+	
+}
+
+p{
+	max-width: 250px;
+	/* text-align: */
+}
+
+div{
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*stretch */
+.nav-bar a:nth-child(1){
+	color:gold;
+}
+
+.nav-bar a:nth-child(2){
+	color:teal;
+}
+
+.nav-bar a:nth-child(3){
+	color:purple;
+}
+
+.nav-bar a:nth-child(4){
+	color:orangered;
+}
+
+.nav-bar a:nth-child(5){
+	color:gray;
+}
+
+.nav-bar a:nth-child(6){
+	margin-right:20px;
+	color:teal;
+}
